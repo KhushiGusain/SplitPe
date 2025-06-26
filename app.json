@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SplitPe",
+    "slug": "splitpe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.splitpe.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.splitpe.app",
+      "permissions": [
+        "android.permission.READ_SMS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.CAMERA",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "scheme": "splitpe"
+  }
+} 
